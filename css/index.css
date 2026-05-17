@@ -79,3 +79,55 @@ ul {
     border-radius: 5px;
     padding: 15px 35px;
 }
+
+/*SECÇÃO DE CARDS*/
+.content-cards {
+    padding: 60px 5%;
+    background-color: #0B0F19;
+    text-align: center;
+}
+
+.content-cards h2 {
+    font-size: 32px;
+    color: #F8FAFC;
+    margin-bottom: 40px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.card {
+    background-color: #161F30;
+    flex: 1;  /* Faz com que os 3 cards tenham exatamente o mesmo tamanho */
+    margin: 0 15px;
+    padding: 30px 20px;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.card-icon {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.card h3 {
+    font-size: 22px;
+    color: #F8FAFC;
+    margin-bottom: 15px;
+}
+
+.card p {
+    font-size: 15px;
+    color: #94A3B8;
+    margin-bottom: 25px;
+}
+
+.card-link {
+    color: #00E5FF;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+}
