@@ -49,7 +49,7 @@ ul {
     align-items: center;
     text-align: center;
     padding: 100px 20px;
-    background-color: #0B0F19;
+    background-color: #161F30;
 }
 
 .hero-content {
@@ -131,3 +131,55 @@ ul {
     font-weight: bold;
     font-size: 15px;
 }
+
+/*SECÇÃO NEWSLETTER*/
+.newsletter {
+    padding: 80px 5%;
+    background-color: #161F30;
+    text-align: center;
+}
+
+.newsletter-content {
+    max-width: 600px;
+    margin: 0 auto; /* Truque clássico do Odin para centralizar a margem horizontal */
+}
+
+.newsletter h2 {
+    font-size: 28px;
+    color: #F8FAFC;
+    margin-bottom: 30px;
+}
+
+.newsletter p {
+    font-size: 16px;
+    color: #94A3B8;
+    margin-bottom: 30px;
+}
+
+.newsletter-form {
+    display: flex;
+    justify-content: center;
+}
+
+.newsletter-form input[type="email"] {
+    flex: 1;
+    padding: 15px 20px;
+    font-size: 16px;
+    background-color: #0B0F19;
+    border: 2px solid #161F30;
+    border-radius: 5px;
+    color: #F8FAFC;
+}
+
+.newsletter-form button {
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #00E5FF;
+    color: #0B0F19;
+    border: none;
+    border-radius: 10px;
+
+}
+
+/*SECÇÃO FOOTER*/
