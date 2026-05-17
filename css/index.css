@@ -1,3 +1,4 @@
+/*SECÇÃO HEADER*/
 * {
     margin: 0;
     padding: 0;
@@ -39,4 +40,42 @@ ul {
     color: #94A3B8;
     text-decoration: none;
     font-weight: bold;
+}
+
+/*SECÇÃO HERO*/
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #0B0F19;
+}
+
+.hero-content {
+    max-width: 800px;
+}
+
+.hero h1 {
+    font-size: 42px;
+    font-weight: bold;
+    color: #F8FAFC;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #94A3B8;
+    margin-bottom: 40px;
+}
+
+.hero .btn-cta {
+    display: inline-block;
+    background-color: #00E5FF;
+    color: #0B0F19;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 15px 35px;
 }
